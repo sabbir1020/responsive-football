@@ -1,0 +1,65 @@
+/* MAIN STAR */
+.container{
+    background-color:#FFFFFF;
+}
+
+/* ---------
+COPA AMERICA
+-------- */
+.copa-america{
+    display: flex;
+    width: 1400px;
+    height:677px ;
+    background-color: blue;
+    justify-content: center;
+
+}
+.copa-daties{
+     font-family: 'Poppins', sans-serif;
+     color: #FFFFFF;
+     font-weight: 700px;
+
+
+}
+.copa-america h1{
+    font-family: 'Poppins', sans-serif;
+    margin-top:  207px;
+    margin-left: 165px;
+    font-size: 60px;
+}
+.copa-daties p{
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.copa-america img{
+    width: 556px;
+   height:438px ;
+   margin: 150px;
+}
+/* 2nd section Top player */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-column-gap:5px;
+    height: 430px; 
+    width: 1050px;
+    padding: 30px;
+    margin: 10px;
+}
+.player .player-banner img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 50px;
+    font-weight: 700;
+}
+.player-info{
+    font-size: 16px;
+    color:  #6C6C6C;
+    
+}
+/* miss player */
+
