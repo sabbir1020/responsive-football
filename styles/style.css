@@ -3,9 +3,9 @@
     background-color:#FFFFFF;
 }
 
-/* ---------
+/* --------------
 COPA AMERICA
--------- */
+---------------- */
 .copa-america{
     display: flex;
     width: 1400px;
@@ -25,41 +25,92 @@ COPA AMERICA
     font-family: 'Poppins', sans-serif;
     margin-top:  207px;
     margin-left: 165px;
-    font-size: 60px;
+    font-size: 50px;
 }
 .copa-daties p{
+    width: 130px;
+    height: 35px;   
     font-size: 16px;
+    margin-left: 100px;
+    margin-bottom:120px ;
+    /* margin-right: 30px; */
     background-color: #E02C6D;
-    padding: 10px 24px;
+    padding: 10px ;
+    text-align: center;
+}
+.fas{
+    margin:10px;
 }
 .copa-america img{
     width: 556px;
    height:438px ;
    margin: 150px;
 }
-/* 2nd section Top player */
+/*-------------------
+ 2nd section Top .player-banner
+ ------------------------------ */
 .players{
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
-    grid-column-gap:5px;
-    height: 430px; 
-    width: 1050px;
-    padding: 30px;
+    /* grid-column-gap:5px; */
+    justify-content: center;
+    align-items: center;
+     /* height: 430px;  */
+     /* width: 1050px; */
+    padding: 20px ;
+    /* margin: 10px; */
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 10px;
     margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 8px ;
 }
 .player .player-banner img{
-    width: 300px;
-    height: 256px;
+    width: 100%;
+}
+.player-detail{
+    padding: 10px;
 }
 .player-name{
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 700;
+    text-align: center;
+    
 }
 .player-info{
-    font-size: 16px;
-    color:  #6C6C6C;
+    text-align: justify;
+    color: #6C6C6C;
+    
     
 }
 /* miss player */
 
+
+
+/* ---------------
+    footer style 
+------------------ */
+.footer-info{
+    text-align: center;
+}
+.footer-info img{
+    height: 110px;
+}
+.social-icon{
+    margin: 20px 0px;
+    border-radius: 10px;
+    
+}
+.fa-instagram .fa-globe .fa-twitter-square .fa-youtube{
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    grid-column-gap: 14px;
+    background-color: #969BAB;
+}
+
+ 
