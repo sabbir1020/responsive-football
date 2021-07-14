@@ -2,6 +2,24 @@
 .container{
     background-color:#FFFFFF;
 }
+/* -----------
+header start 
+------------- */
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+     margin-right: 10px;
+     padding:0% 10px;
+}
+nav li:hover{
+    background-color: lightgray ;
+    border-radius: 10px;
+}
+.li-right{
+    float: right;
+}
 
 /* --------------
 COPA AMERICA
@@ -87,8 +105,14 @@ COPA AMERICA
     
     
 }
-/* miss player */
+/* -----
+bours part 
+-------- */
 
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
 
 
 /* ---------------
@@ -112,5 +136,21 @@ COPA AMERICA
     grid-column-gap: 14px;
     background-color: #969BAB;
 }
-
- 
+/*----------------------
+     Media Querices 
+----------------------*/
+-
+ /* ------------
+    MObile Devices 
+ --------------*/
+ @media only screen and ( max-width:688px) {
+     .container{
+        /* width: 100%; */
+     }
+     .copa-america .players{
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .copa-daties{
+         flex-direction: column;
+     }
+ }
